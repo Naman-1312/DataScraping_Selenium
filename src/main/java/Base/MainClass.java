@@ -17,7 +17,7 @@ public class MainClass {
         WebDriver driver = new ChromeDriver();
         
         // Url opening
-        String url = "http://example.com/doctors";
+        String url = "https://kivihealth.com/jaipur/doctors";
         driver.get(url);
 
         DoctorPage doctorPage = new DoctorPage(driver);

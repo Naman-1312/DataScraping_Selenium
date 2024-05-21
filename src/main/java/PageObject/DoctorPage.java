@@ -10,7 +10,7 @@ public class DoctorPage {
 
 	 WebDriver driver;
 
-	    @FindBy(xpath = "")
+	    @FindBy(className = "col l2 m2 s4 profileDocPic c1")
 	    WebElement profilePhoto;
 
 	    @FindBy(css = "h1.doctor-name")
