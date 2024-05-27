@@ -5,14 +5,11 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Scrapping_SecondMethod {
-
-	
+public class Doctor_FullProfile {
 	public static void main(String[] args) {
 		WebDriver driver = null;
 		 WebDriverManager.edgedriver().setup();
@@ -42,7 +39,7 @@ public class Scrapping_SecondMethod {
 	        		System.out.println("Doctor Name: " + doctorName); 
 	        		System.out.println("Doctor Education: " + doctorEducation); 
 	        		System.out.println("Doctor Specialization: " + doctorSpecialization); 
-	        		System.out.println("Doctor Experience: " + doctorExperience);
+	        		System.out.println("Doctor Specialization: " + doctorExperience);
 //	        		System.out.println("Doctor Clinic: " + doctorClinic);
 	        	}
 	        	driver.findElement(By.xpath("//i[contains(text(),'chevron_right')]")).click(); 
@@ -50,5 +47,4 @@ public class Scrapping_SecondMethod {
 	        }
 //	driver.quit();
 	}
-
 }
