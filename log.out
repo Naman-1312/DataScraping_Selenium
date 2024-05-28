@@ -1,0 +1,947 @@
+2024-05-28 10:33:38 ERROR Image_Saver_Excel:65 - Malformed URL: Doctor Image
+java.net.MalformedURLException: no protocol: Doctor Image
+	at java.base/java.net.URL.<init>(URL.java:772)
+	at java.base/java.net.URL.<init>(URL.java:654)
+	at java.base/java.net.URL.<init>(URL.java:590)
+	at Base.Image_Saver_Log.downloadImage(Image_Saver_Log.java:52)
+	at Base.Image_Saver_Log.main(Image_Saver_Log.java:41)
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vaibhav_Nepalia_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Priyanka_Sehgal_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Lavish_Gupta_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Himanshu_Pal_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Swati_Mogra_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepak_Sharma_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Lalit_Garg_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Neelam_Maheshwari_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ram_Somagi_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajeev_Thaper_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakesh_Sharma_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Divyaroop_Rai_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._B_L_Gupta_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kapil_Singhal_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Neelesh_Benara_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ridam_Jain_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Gill_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dhawal_Goyal_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Susheel_Mimrot_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Choudhary_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gautam_Sharma_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepesh_Prajapati_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pankaj_Sharma_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Jharwal_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manish_Thagaria_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tarun_Sethi_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jatin_Mishra_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Lokesh_Dariya_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Keyur_Chaturvedi_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prateek_Arora_image.jpg
+2024-05-28 10:33:39 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Puneet_Bhargava_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anish_Talwar_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pawan_Sinsinwar_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._H.L._Gupta_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Esha_Nagpal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Geetanjali_Singh_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shilpa_Gupta_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Avadesh_Singh_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Saurabh_Kothari_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Stuti_Thaper_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mamta_Sharma_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mukesh_Sharma_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_Prajapati_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prateek_Jain_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Harsh_Pandey_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._M_Choyal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_K.k_Saini_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_kant_Jain_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vinod_Jakhar_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ankur_Goyal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Malay_Trivedi_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashish_Gupta_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._P_Mathur_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shantanu_Choudhary_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anup_Agarwal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Randheer_Kumar_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gunjan_Khandelwal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ankit_Mandloi_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Narender_Saini_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Mahim_Sharma_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anjali_Juneja_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mani_Dubey_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._N.K._Kumawat_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ankur_Mangal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_Kuntal_image.jpg
+2024-05-28 10:33:40 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajendra_Bansal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ritu_Mathur_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Devendra_Lakhotia_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Umme_Aiman_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Narender_Saini_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Mahim_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anjali_Juneja_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shalinii_Dorwal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikram_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajesh_Kumar_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashutosh_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anima_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._MANOHAR_SHARMA_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Aashish_K._Sharma_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Aashish_K._Sharma_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitin_Goyal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vaibhav_Agnihotri_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._SHAIL_UPADHYAYA_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ananya_Pareek_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Bhupendra_Arya_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_SanjayKumar_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manjari_Bansal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Jyoti_Thagaria_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kavita_Bhargava_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikash_Saini_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_kuntal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meenakshi_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meenakshi_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Karishma_Goyal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rahul_Sharma_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shruti_Bansal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Mahendra_Singh_Punia_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Hardik_Jain_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Saxena_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Divyam_Gupta_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gunjan_Garg_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Gupta_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunil_Kumar_Tank_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anjani_Paliwal_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Mishra_image.jpg
+2024-05-28 10:33:41 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Chitra_Malot_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Devendra_Gupta_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Akshay_Garg_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_katariya_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhimanyu_Uppal_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Harshita_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Chetan_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Ankit_Bhalothia_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Mahim_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Beniwal_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kuldeep_Gupta_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitin_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manish_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pragya_Kawadiya_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ambika_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitesh_Saini_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nikita_Agarwal_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Y_K_KALIA_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Ankit_Bhalothia_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Mahim_Sharma_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Beniwal_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Gupta_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Badaya's_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunil_Agrawal_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deep_Tomar_image.jpg
+2024-05-28 10:33:42 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Garima_Dugar_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mahendra_Kumar_Dadarwal_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Anil_Verma_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Apeksha_Ojha_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_PawanKumar_Grover_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sachin_Gupta_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikram_Yadav_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Ronak_Shrimal_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jyoti_._image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jagveer_Singh_Choudhary_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepak_Goyal_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Yogesh_Khandelwal_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nazia_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rekha_Vashisth_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ajay_Choudhary_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._amanjot_test_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Yogendra_Singh_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Saurabh_Gupta_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anita_Gupta_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Arun_Agrawal_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._harshit_jangid_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anisha_Mehlawat_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Navratan_Gurjar_image.jpg
+2024-05-28 10:33:43 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sultan_Mohd_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Saurabh_Ladha_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Emanshu_Alavadi_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunny_kaushik_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vineet_Prabhakar_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mandeep_Singh_Shekhawat_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shambhav_Chandalia_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Suneet_Soni_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Sharma_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anjali_Mehta_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rohit_Gupta_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Arpita_Jain_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Sharma_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pooja_Dixit_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Arun_Partani_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakesh_Choudhary_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sanjay_Rawal_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Niranjan_Agarwal_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Anushka_Yadav_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kapil_Singhal_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pavan_Singhal_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manmohan_Singh_Yadav_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pankaj_sharma_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shyam_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._DrNeha_Yaduvanshi_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Archit_Tiwari_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kavita_Goel_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Seema_Goyal_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Bharti_Maheshwari_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Yogendra_Kumar_Pareek_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Monika_Saini_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sandeep_Vijay_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pavan_Sharma_image.jpg
+2024-05-28 10:33:44 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rishi_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Smita_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tara_Chand_Gupta_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manoj_Kabra_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashish_Gupta_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nidhi_Bansal_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vishal_Purohit_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vibhor_Gupta_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Khushboo_Singh_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Balveen_Singh_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Alpa_Mathur_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pallavi_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Prateek_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tejasv_Mathur_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Prateek_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tejasv_Mathur_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Gupta_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_._Sonali_Jain_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikram_Bohra_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._swadhin_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Sauravi_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sushmita_Agrawal_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Madhu_Vaghela_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sonu_Goel_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sanjay_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Ajay_Agrawal_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Kant_Sharma_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vinod_Prajapati_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_kuntal_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dilip_Choudhary_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sushil_Kalra_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._ManglamPlus_Medicity_Hospital_image.jpg
+2024-05-28 10:33:45 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Priti_Agarwal_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ambika_Lakhotia_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Tushar_Kant_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mukesh_Choudhary_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Ajay_Agrawal_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Kant_Sharma_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meha_Jain_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Jaiswal_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._N._P._Kulhari_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meha_Jain_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Jaiswal_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._N._P._Kulhari_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._K.K._Sharma_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Saurabh_Chaturvedi_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Suman_Bhakhar_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._PRIYANKA_SHARMA_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajesh_Chaudhary_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Neha_Yaduvanshi_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tarachand_Joshi_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Narendra_Kumar_image.jpg
+2024-05-28 10:33:46 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._sharda_saini_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Anjali_Dave_Tiwari_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._S.N._Gupta_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shefali_Chaturvedy_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitin_Bhandari_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._BHAVANA_Verma_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Gupta_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Bhawana_Jethani_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Renu_Chaudhary_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tarun_Parashar_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._RAKESH_PARIKH_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._sharda_saini_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Anjali_Dave_Tiwari_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prachi_Agarwal_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pankaj_Gogna_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepak_Soni_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mohammad_Zeeshan_Ali_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._shikha_agarwal_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajat_singh_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pratibha_Agrawal_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._VIKASH_GUPTA_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Chitra_kabra_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kaushal_Goyal_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Virendra_Agrawal_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tanmay_Pareek_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Nivedita_Saxena_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._rupal_arora_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mukesh_Karol_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Neelam_Choudhary_image.jpg
+2024-05-28 10:33:47 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rahul_Yadav_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jai_Bansal_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dinesh_Dugar_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Upendra_Nirvan_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Swati_Joshi_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gunjan_Agarwal_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.DR.SEEMA_SHRIVASTAVa_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Atul_Jain_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kartick_Rastogi_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Minaal_Iyer_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Avinash_Sharma_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amitta_Shringi_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nehal_Gupta_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mandeep_Singh_Shekhawat_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shivani_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._manmohan_singh_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Vivek_Saboo_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Himanshu_Gupta_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nikku_Saini_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nidhi_Gupta_image.jpg
+2024-05-28 10:33:48 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Rewar_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\DR.Abhishek_Prakash_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._GAURAV_RAM_CHANDANI_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Abhishek_Barala_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Atul_Jain_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gunjan_Garg_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ravi_Mukharji_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nirish_Agarwal_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajeev_Vashisth_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajeev_Thaper_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Ankit_Jain_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._vishal_lodha_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepanshu_Jhunthra_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vijay_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Tarun_Parashar_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Priti_Agarwal_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Himanshu_Khichar_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mahesh_Mishra_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Himanshu_Khichar_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Balram_Harsana_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gunjan_Singh_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Gupta_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashish_Sharma_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pawan_Sharma_image.jpg
+2024-05-28 10:33:49 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shefali_Gupta_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._RICHA_JAIN_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Saraf_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Clove_Dental_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sanjeev_Singh_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.manohar_singh_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashwini_Sharma_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Nikhil_Bansal_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Balram_Harsana_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Akshay_Upadhyaya_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ashtosh_sharma_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anamika_Jalandra_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Danish_Ali_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Arundhati_Goyal_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Drshivam_gupta_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._DrNaresh_Kumar_Jangir_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Mahima_Gautam_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Meenakshi_Soni_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Priti_yuvraj_Yadav_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._ADITYA_SHARMA_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._shahin_khanam_image.jpg
+2024-05-28 10:33:50 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nupur_Raina_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Gupta_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Chinmay_Kumar_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajeev_Nagar_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ruchi_Jain_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mayank_Agarwal_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jitendra_Katariya_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepika_Barala_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deshant_Agarwal_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Saraf_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._DR_ANUSHRI_SHARMA_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shubhra_Singh_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Niranjan_Singh_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Niranjan_Singh_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Rimmi_Shekhawat._image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Shaleen_Hazare_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Stuti_Thaper_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Gupta_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Neeraj_Saraswat_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pramod_._image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ajay_Gupta_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._B_M_MAMODIYA_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kanika_Sharma_(ent_spec)_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Yogendra_singh_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sanjay_Sogani_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pradeep_Mangal_image.jpg
+2024-05-28 10:33:51 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vipul_Agarwal_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Anuroop_Rai_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakeshh_N_Dorwal_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ankit_Vijay_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sumit_Taneja_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prem_verma_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sushil_Sharma_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Govindsingh_Choudhary_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manish_Vaishnav_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._PRAVEEN_KANT_SHARMA_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepak_Agarwal_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sanvar_M.K._image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Divya_Dhakra_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nakul_Kaushik_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tanishq_Chattree_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Shiv_chouhan_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Romil_Sharma_Dr.Asha_sharma_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Piyush_Yadav_image.jpg
+2024-05-28 10:33:52 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Monika_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Yogita_Chaturvedi_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitesh_Tyagi_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ramya_Garg_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Atul_Singh_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._MADANMOHAN_Gupta_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kulbhushan_Haldeniya_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Jitendra_Verma_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Majnu_nath_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_ANIL_GUPTA_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pooja_Choudhary_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._vishnu_singh_shekhawat_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ayush_Gupta_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakesh_Godara_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Lokesh_Pareek_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajat_Malot_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._DEEPAK_VERMA_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anupriya_Dixit_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mahim_Sharma_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Lovelish_Jain_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Krishna_Undaviya_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._vishal_soni_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Alankrita_Sisodia_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Swapnil_Jain_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Puneet_.Goyal_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ajay_Jatoliya_image.jpg
+2024-05-28 10:33:53 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Gaurav_Shah_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pratima_Mishra_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunil_Arora_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._YOJNA_SHRIWAS_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ravish_Malhotra_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sadhna_Hospital_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rahul_Mathur_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakesh_Verma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jagdeep_Rao_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kunal_Joshi_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Mansi_Sharma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vidhi_Agarwal_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Krunal_Damor_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajesh_Nawal_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepesh_Nainani_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Raj_Singh_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mani_Ram_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dattak_sharma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajneesh_Shastri_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Aniruddh_Soni_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Chirag_Gupta_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Jitendra_Verma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Himanshu_Mathur_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\DR.HITESH_CHAUDHARY_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rohit_Sureka_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Avinash_Sharma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Reception_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepesh_Agarwal_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._test_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vivek_Jain_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pawan_Sharma_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Palak_parti_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dileep_Soni_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Yadav_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Syed_Ali_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mohini_Gupta_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\DR._ANOOP_KISHORE_GUPTA_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunny_lohia_image.jpg
+2024-05-28 10:33:54 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._dr_Anil_Pahadia_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sunny_lohia_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._dr_Anil_Pahadia_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Jalam_Purohit_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepesh_Goyal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pooja_Varshney_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Ankit_Gupta_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_kamal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rakshita_Kothari_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vikas_Mathur_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Arun_Yadav_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nidhi_Mishra_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nathu_Patel_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sonu_mukesh_Karol_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Rhythm_Saxena_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Nitin_Saxena_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rajesh_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepesh_Goyal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pooja_Varshney_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Mani_Dubey_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Medhavi_Sharma_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Priyanka_Dobhal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Parag_Srivastava_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rishabh_Jain_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Swati_Joshi_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Buddhi_Prakash_Sharma_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vishal_Lodha_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manisha_Sharma_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Kumar_Singhal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vishal_Lodha_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Manisha_Sharma_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Kumar_Singhal_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr.Nisha_Jadaun_image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tanushree_._image.jpg
+2024-05-28 10:33:55 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meenal_Makkar_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Antima_singhal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prachi_Agarwal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Vivek_Chaturvedy_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Sachin_Sharda_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Chauhan_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Kamal_Kumar_Agarwal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Anupriya_Dixit_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._anshuman_shiva_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Tanushree_._image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Meenal_Makkar_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Antima_singhal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Savya_Sanchi_Singh_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Amit_Gupta_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Himanshu_Pareek_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Pankaj_Gulati_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Abhishek_Vashistha_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Bhupendra_Vaishnav_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Dr_Jaya_Purewal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Deepak_Saini_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Prakash_Singh_Shekhawat_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Elshita_Agarwal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Rahul_Mathur_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._dr_pradeep_kumar_mangal_image.jpg
+2024-05-28 10:33:56 INFO  Image_Saver_Excel:60 - Image downloaded successfully: C:\Users\naman\Desktop\Doctor Images\Dr._Olive_Dental_Hospital_image.jpg
+2024-05-28 10:56:09 ERROR Url_opening:55 - Error scraping data from URL: https://kivihealth.com/iam/vikram.sharma.7637
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"selector_for_doctor_profile_image"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0388c98eef569ee418d9a5df253e765a, findElement {value=selector_for_doctor_profile_image, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55500}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55500/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0388c98eef569ee418d9a5df253e765a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:43)
+2024-05-28 10:56:12 ERROR Url_opening:55 - Error scraping data from URL: https://kivihealth.com/iam/dr.anuroop.rai.3822
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"selector_for_doctor_profile_image"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0388c98eef569ee418d9a5df253e765a, findElement {value=selector_for_doctor_profile_image, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55500}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55500/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0388c98eef569ee418d9a5df253e765a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:43)
+2024-05-28 10:56:15 ERROR Url_opening:55 - Error scraping data from URL: https://kivihealth.com/iam/ankit.vijay.7616
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"selector_for_doctor_profile_image"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0388c98eef569ee418d9a5df253e765a, findElement {value=selector_for_doctor_profile_image, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55500}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55500/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0388c98eef569ee418d9a5df253e765a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:43)
+2024-05-28 11:02:18 INFO  Url_opening:49 - Doctor Name: Dr. Vikram Sharma
+2024-05-28 11:02:21 INFO  Url_opening:49 - Doctor Name: Dr. Anuroop Rai
+2024-05-28 11:02:24 INFO  Url_opening:49 - Doctor Name: Dr. Ankit Vijay
+2024-05-28 11:02:28 INFO  Url_opening:49 - Doctor Name: Dr. Nidhi Gupta
+2024-05-28 11:02:30 INFO  Url_opening:49 - Doctor Name: Dr. Kapil Singhal
+2024-05-28 11:02:34 INFO  Url_opening:49 - Doctor Name: Dr. Sonu Goel
+2024-05-28 11:13:33 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/vikram.sharma.7637
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:36 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/dr.anuroop.rai.3822
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:40 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/ankit.vijay.7616
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:43 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/nidhi.gupta..dslftbqrlt9q
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:46 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/kapil.singhal.8172
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:49 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/sonu.goel.o36rxq25087y
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:52 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/dr..bharti.maheshwari.fmsznln4qyxn
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:13:55 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/dilip.choudhary.10935
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1ac27dc960913ef7f5c4c95e74c55fd2, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56166}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac27dc960913ef7f5c4c95e74c55fd2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:23 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/vikram.sharma.7637
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:26 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/dr.anuroop.rai.3822
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:29 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/ankit.vijay.7616
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:32 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/nidhi.gupta..dslftbqrlt9q
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:35 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/kapil.singhal.8172
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:14:38 ERROR Url_opening:58 - Error scraping data from URL: https://kivihealth.com/iam/sonu.goel.o36rxq25087y
+org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: MicrosoftEdge=125.0.2535.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0eab395303f55ae085957365f9ecb024, findElement {value=.//doctoravtar, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56256}, msedge: {msedgedriverVersion: 125.0.2535.67 (626a82df5fa7..., userDataDir: C:\Users\naman\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56256/devtoo..., se:cdpVersion: 125.0.2535.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eab395303f55ae085957365f9ecb024
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:45)
+2024-05-28 11:15:00 INFO  Url_opening:50 - Doctor Name: Dr. Vikram Sharma
+2024-05-28 11:15:00 INFO  Url_opening:51 - Doctor Profile Image: null
+2024-05-28 11:15:03 INFO  Url_opening:50 - Doctor Name: Dr. Anuroop Rai
+2024-05-28 11:15:03 INFO  Url_opening:51 - Doctor Profile Image: null
+2024-05-28 11:15:06 INFO  Url_opening:50 - Doctor Name: Dr. Ankit Vijay
+2024-05-28 11:15:06 INFO  Url_opening:51 - Doctor Profile Image: null
+2024-05-28 11:17:02 ERROR Url_opening:59 - Error scraping data from URL: https://kivihealth.com/iam/vikram.sharma.7637
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "doctorProfileImage" is null
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:46)
+2024-05-28 11:17:07 ERROR Url_opening:59 - Error scraping data from URL: https://kivihealth.com/iam/dr.anuroop.rai.3822
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "doctorProfileImage" is null
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:46)
+2024-05-28 11:17:10 ERROR Url_opening:59 - Error scraping data from URL: https://kivihealth.com/iam/ankit.vijay.7616
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "doctorProfileImage" is null
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:46)
+2024-05-28 11:17:13 ERROR Url_opening:59 - Error scraping data from URL: https://kivihealth.com/iam/nidhi.gupta..dslftbqrlt9q
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "doctorProfileImage" is null
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:46)
+2024-05-28 11:17:16 ERROR Url_opening:59 - Error scraping data from URL: https://kivihealth.com/iam/kapil.singhal.8172
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "doctorProfileImage" is null
+	at Base.Particular_DoctorData.main(Particular_DoctorData.java:46)
+2024-05-28 11:21:33 INFO  Url_opening:66 - Doctor Name: Dr. Vikram Sharma
+2024-05-28 11:21:36 INFO  Url_opening:66 - Doctor Name: Dr. Anuroop Rai
+2024-05-28 11:21:39 INFO  Url_opening:66 - Doctor Name: Dr. Ankit Vijay

@@ -38,15 +38,15 @@ public class DoctorScrappedData {
                     WebElement element = list.get(i);
                     String imageUrl = element.findElement(By.xpath(".//img")).getAttribute("src");
                     String doctorName = element.findElement(By.xpath(".//h4")).getAttribute("innerText");
-                    String doctorEducation = element.findElement(By.xpath(".//h5[1]")).getAttribute("innerText");
-                    String doctorSpecialization = element.findElement(By.xpath(".//h5[2]")).getAttribute("innerText");
-                    String doctorExperience = element.findElement(By.xpath(".//h5[3]")).getAttribute("innerText");
+//                    String doctorEducation = element.findElement(By.xpath(".//h5[1]")).getAttribute("innerText");
+//                    String doctorSpecialization = element.findElement(By.xpath(".//h5[2]")).getAttribute("innerText");
+//                    String doctorExperience = element.findElement(By.xpath(".//h5[3]")).getAttribute("innerText");
 
                     row.createCell(0).setCellValue(doctorName);
-                    row.createCell(1).setCellValue(doctorEducation);
-                    row.createCell(2).setCellValue(doctorSpecialization);
-                    row.createCell(3).setCellValue(doctorExperience);
-                    row.createCell(4).setCellValue(imageUrl);
+//                    row.createCell(1).setCellValue(doctorEducation);
+//                    row.createCell(2).setCellValue(doctorSpecialization);
+//                    row.createCell(3).setCellValue(doctorExperience);
+                   row.createCell(4).setCellValue(imageUrl);
                 }
                 driver.findElement(By.xpath("//i[contains(text(),'chevron_right')]")).click();
             } catch (NoSuchElementException e) {
@@ -85,17 +85,17 @@ public class DoctorScrappedData {
         cell.setCellValue("Doctor Name");
         cell.setCellStyle(style);
 
-        cell = row.createCell(1);
-        cell.setCellValue("Doctor Education");
-        cell.setCellStyle(style);
-
-        cell = row.createCell(2);
-        cell.setCellValue("Doctor Specialization");
-        cell.setCellStyle(style);
-
-        cell = row.createCell(3);
-        cell.setCellValue("Doctor Experience");
-        cell.setCellStyle(style);
+//        cell = row.createCell(1);
+//        cell.setCellValue("Doctor Education");
+//        cell.setCellStyle(style);
+//
+//        cell = row.createCell(2);
+//        cell.setCellValue("Doctor Specialization");
+//        cell.setCellStyle(style);
+//
+//        cell = row.createCell(3);
+//        cell.setCellValue("Doctor Experience");
+//        cell.setCellStyle(style);
 
         cell = row.createCell(4);
         cell.setCellValue("Doctor Image");

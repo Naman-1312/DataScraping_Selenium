@@ -8,9 +8,14 @@ import java.net.URL;
 //import java.nio.file.Path;
 //import java.nio.file.Paths;
 
+import org.openqa.selenium.By;
+
 public class Image_Saver {
     public static void main(String[] args) {
-        // URL of the image
+
+//    	To Fetch Doctor name
+//    	String doctorName = element.findElement(By.xpath(".//h4")).getAttribute("innerText");
+    	// URL of the image
         String imageUrl = "https://files.kivihealth.com/cache/profile_pic/20170403020130_Divyaroop%20Rai.jpg";
 
         // Path to save the downloaded image
