@@ -4,12 +4,15 @@ import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -31,7 +34,10 @@ public class Particular_DoctorData {
         for (String url : urls) {
             driver.get(url);
             try {
-                Thread.sleep(2000); // Sleep for 2 seconds to wait for the page to load
+            	System.out.println("**********************************************************");
+            	System.out.println("Doctor Url : " + url);
+            	
+               Thread.sleep(2000); // Sleep for 2 seconds to wait for the page to load
             } catch (InterruptedException e) {
                 logger.error("Thread interrupted while waiting for page to load", e);
             }
@@ -47,6 +53,7 @@ public class Particular_DoctorData {
               String doctorExperience = driver.findElement(By.cssSelector("selector_for_doctor_experience")).getText();
                 */
               
+              
               // To Fetch the CSS Property Value for the Doctor Profile Image
               String doctorProfileImage = driver.findElement(By.cssSelector(".doctoravtar")).getCssValue("background-image");
 
@@ -59,13 +66,89 @@ public class Particular_DoctorData {
 
               System.out.println("Doctor Profile Image: " + doctorProfileImage);
 
+              // To scrap the Doctor Specialization 
+              
+              String doctorSpecialization = driver.findElement(By.xpath("//*[@id='doctorprofilecard']/div[1]/p")).getText();
+              System.out.println("Doctor Specilization & Experience: " + doctorSpecialization);
+              
+              // To Scrap the Doctor Rating
+              
+              String doctorRating = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[2]/span[1]")).getText();
+              System.out.println("Doctor Ratings: " + doctorRating + " Star");
+              
+              // To scrap the Doctor Registration Number
+              String doctorRegistration = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[3]/div[1]/div/p[1]")).getText();
+              System.out.println("Doctor Registration No. : " + doctorRegistration );
               
               
-                logger.info("Doctor Name: " + doctorName);
-//                logger.info("Doctor Profile Image: " + doctorProfileImage);
-//                logger.info("Doctor Clinic Details: " + doctorClinicDetails);
-//                logger.info("Doctor Experience: " + doctorExperience);
+              // To Scrap the Doctor Education Data
+              String doctorEducation = driver.findElement(By.xpath("//*[@class = 'educationbox']/p[2]")).getText();
+              System.out.println("Doctor Education : " + doctorEducation );
+              
+              
+              // To scrap Additional photos of the doctor   
+              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+              List<WebElement> imageThumbnails = driver.findElements(By.cssSelector("#doctorphotos .image-thumbnail"));
 
+              // Iterate over the image thumbnails and extract the background-image URLs
+              for (int i = 1; i <= 5; i++) {
+                  String imageUrl = imageThumbnails.get(i).getAttribute("style");
+                  imageUrl = extractImageUrl(imageUrl);
+                  System.out.println("Doctor Additional Photos " + (i) + " URL: " + imageUrl);
+              }
+              
+              // To scrap doctor clinic details and contact number
+              
+              List<WebElement> clinicElements = driver.findElements(By.cssSelector("#doctorclinics .clinics-title"));
+
+              for (int i = 1; i <= 4; i++) {
+//                  WebElement clinicNameElement = clinicElement.findElement(By.className("clinics-title"));
+//                  String clinicName = clinicNameElement.getText();
+            	  String clinicDetails = clinicElements.get(i).getText();
+                  
+//            	  List<WebElement> contactElements = clinicElements.findElements(By.className("text-link"));
+//                  String contactNumber = "";
+//                  for (WebElement contactElement : contactElements) {
+//                      if (contactElement.getAttribute("href").startsWith("tel:")) {
+//                          contactNumber = contactElement.getText().replace(" ", "");
+//                          break;
+//                      }
+//                  }
+
+                  System.out.println("Clinic Name: " + clinicDetails);
+//                  System.out.println("Contact Number: " + contactNumber);
+                  System.out.println();
+              }
+
+
+              
+/*            String additionalPhoto1 = driver.findElement(By.cssSelector("//*[@id='doctorphotos']/div[1]/div[1]/div[1]")).getAttribute("url");
+              System.out.println("Doctor Additional Photo 1 : " + additionalPhoto1 );
+            
+              String additionalPhoto2 = driver.findElement(By.xpath("//*[@id='doctorphotos']/div[1]/div[1]/div[2]")).getAttribute("url");
+              System.out.println("Doctor Additional Photo 2 : " + additionalPhoto2 );
+              
+              String additionalPhoto3 = driver.findElement(By.xpath("//*[@id='doctorphotos']/div[1]/div[1]/div[3]")).getAttribute("url");
+              System.out.println("Doctor Additional Photo 3 : " + additionalPhoto3 );
+              
+              String additionalPhoto4 = driver.findElement(By.xpath("//*[@id='doctorphotos']/div[1]/div[1]/div[4]")).getAttribute("url");
+              System.out.println("Doctor Additional Photo 4 : " + additionalPhoto4 );
+
+              String additionalPhoto5 = driver.findElement(By.xpath("//*[@id='doctorphotos']/div[1]/div[1]/div[5]")).getAttribute("url");
+              System.out.println("Doctor Additional Photo 5 : " + additionalPhoto5 );
+*/               
+              	logger.info("Doctor Name: " + doctorName);
+                logger.info("Doctor Profile Image: " + doctorProfileImage);
+                logger.info("Doctor Specilization: " + doctorSpecialization);
+                logger.info("Doctor Ratings: " + doctorRating );
+                logger.info("Doctor Registration: " + doctorName);
+                logger.info("Doctor Education: " + doctorEducation);
+              
+/*              logger.info("Doctor Additional Photo 1: " + additionalPhoto1);
+                logger.info("Doctor Additional Photo 2: " + additionalPhoto2 );
+                logger.info("Doctor Additional Photo 3: " + additionalPhoto3);
+                logger.info("Doctor Additional Photo 4: " + additionalPhoto4 );
+*/
                 
      // Save the extracted data as needed, for example, write it to a new Excel file
                 
@@ -100,5 +183,16 @@ public class Particular_DoctorData {
             logger.error("Error reading URLs from Excel file", e);
         }
         return urls;
+    }
+    private static String extractImageUrl(String styleAttribute) {
+        String imageUrl = "";
+        if (styleAttribute != null && styleAttribute.contains("background-image: url(")) {
+            int startIndex = styleAttribute.indexOf("background-image: url(") + "background-image: url(".length();
+            int endIndex = styleAttribute.indexOf(")", startIndex);
+            if (endIndex > startIndex) {
+                imageUrl = styleAttribute.substring(startIndex, endIndex).replace("\"", "");
+            }
+        }
+        return imageUrl;
     }
 }

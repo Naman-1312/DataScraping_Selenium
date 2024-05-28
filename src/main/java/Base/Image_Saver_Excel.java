@@ -21,14 +21,16 @@ public class Image_Saver_Excel {
             for (Row row : sheet) {
                 Cell nameCell = row.getCell(0); // Assuming the doctor name is in the first column
                 Cell urlCell = row.getCell(1); // Assuming the image URL is in the second column
-
-                if (nameCell != null && urlCell != null) {
+               // Cell doctorGuidCell = row.getCell(2); // Assuming the Doctor Image is in the third column
+                
+                if (nameCell != null && urlCell != null ) {
                     String doctorName = nameCell.getStringCellValue();
                     String imageUrl = urlCell.getStringCellValue();
+//                  String doctorGuid = doctorGuidCell.getStringCellValue();  
 
                     // Replace spaces with underscores in the doctor name for the file name
-                    String fileName = doctorName.replaceAll("\\s+", "_") + "_image.jpg";
-                    String downloadPath = "C:\\Users\\naman\\Desktop\\Doctor Images\\" + fileName;
+                    String fileName = doctorName.replaceAll("\\s+", "_") + "_doctorprofile.jpg";
+                    String downloadPath = "C:\\Users\\naman\\Desktop\\DoctorImage\\ " + fileName;
 
                     downloadImage(imageUrl, downloadPath);
                 }
