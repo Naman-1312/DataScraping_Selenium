@@ -24,7 +24,7 @@ public class Image_Saver {
                 // Copy the image from the URL to the specified path
                 byte[] buffer = new byte[1024];
                 int bytesRead;
-                while ((bytesRead = in.read(buffer)) != -1) {
+                while ((bytesRead = in.read(buffer))!= -1) {
                     out.write(buffer, 0, bytesRead);
                 }
                 System.out.println("Image downloaded successfully!");
