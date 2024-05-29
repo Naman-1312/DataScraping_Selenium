@@ -41,9 +41,9 @@ public class Clinic_Scraping {
         for (String url : urls) {
             driver.get(url);
             try {
-                System.out.println("**********************************************************");
-                System.out.println("Doctor Url : " + url);
-                System.out.println();
+//                System.out.println("**********************************************************");
+//                System.out.println("Doctor Url : " + url);
+//                System.out.println();
                 Thread.sleep(2000); // Sleep for 2 seconds to wait for the page to load
             } catch (InterruptedException e) {
                 logger.error("Thread interrupted while waiting for page to load", e);
@@ -56,12 +56,14 @@ public class Clinic_Scraping {
             int maxSize = Math.max(clinicNames.size(), phoneNumbers.size());
             for (int i = 0; i < maxSize; i++) {
                 String clinicName = i < clinicNames.size() ? clinicNames.get(i).getText() : "NA";
+                
                 String phoneNumber = i < phoneNumbers.size() ? phoneNumbers.get(i).getAttribute("href") : "NA";
                 clinicData.add(new String[]{clinicName, phoneNumber});
             }
         }
 
         for (String[] data : clinicData) {
+        	System.out.println("******************************************************************");
             System.out.println("Clinic Name: " + data[0]);
             System.out.println("Phone Number: " + data[1]);
         }
