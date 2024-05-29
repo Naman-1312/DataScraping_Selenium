@@ -21,7 +21,7 @@ import java.util.List;
 
 public class ParticularDoctorData_Excel {
 
-    private static final Logger logger = Logger.getLogger(Url_opening.class);
+    private static final Logger logger = Logger.getLogger(ParticularDoctorData_Excel.class);
 
     public static void main(String[] args) {
         // To Configure log4j for the Logging purpose
@@ -45,7 +45,7 @@ public class ParticularDoctorData_Excel {
             }
 
             try {
-            	String doctorName = driver.findElement(By.xpath(".//h1")).getText();
+                String doctorName = driver.findElement(By.xpath(".//h1")).getText();
                 System.out.println("Doctor Name: " + doctorName);
                 
                 String doctorProfileImage = driver.findElement(By.cssSelector(".doctoravtar")).getCssValue("background-image");
@@ -59,29 +59,23 @@ public class ParticularDoctorData_Excel {
                 String doctorRating = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[2]/span[1]")).getText();
                 String doctorRegistration = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[3]/div[1]/div/p[1]")).getText();
                 String doctorEducation = driver.findElement(By.xpath("//*[@class = 'educationbox']/p[2]")).getText();
-
-/*                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+                
+                // To Fetch Additional Photos of the Doctor!
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
                 List<WebElement> imageThumbnails = driver.findElements(By.cssSelector("#doctorphotos .image-thumbnail"));
                 String[] additionalPhotosUrls = new String[5];
+
                 for (int i = 0; i < 5; i++) {
                     if (i < imageThumbnails.size()) {
                         additionalPhotosUrls[i] = extractImageUrl(imageThumbnails.get(i).getAttribute("style"));
+                        System.out.println("Doctor Additional Photos " + (i + 1) + " URL: " + additionalPhotosUrls[i]);
                     } else {
                         additionalPhotosUrls[i] = "NA";
+                        System.out.println("Doctor Additional Photos " + (i + 1) + " URL: NA");
                     }
                 }
-                */
-            /*    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
-                List<WebElement> imageThumbnails = driver.findElements(By.cssSelector("#doctorphotos .image-thumbnail"));
-                String[] additionalPhotosUrls = new String[5];
-                for (int i = 0; i < 5; i++) {
-                    additionalPhotosUrls[i] = i < imageThumbnails.size() ? extractImageUrl(imageThumbnails.get(i).getAttribute("style")) : "NA";
-                }
-*/
-//                DoctorData doctorData = new DoctorData(doctorName, doctorProfileImage, doctorSpecialization, doctorRating, doctorRegistration, doctorEducation, additionalPhotosUrls);
-//                doctorDataList.add(doctorData);
-
-                DoctorData doctorData = new DoctorData(doctorName, doctorProfileImage, doctorSpecialization, doctorRating, doctorRegistration, doctorEducation);
+                
+                DoctorData1 doctorData = new DoctorData1(doctorName, doctorProfileImage, doctorSpecialization, doctorRating, doctorRegistration, doctorEducation, additionalPhotosUrls);
                 doctorDataList.add(doctorData);
 
             } catch (Exception e) {
@@ -138,7 +132,7 @@ public class ParticularDoctorData_Excel {
             // Creating header row
             String[] columns = {
                 "Doctor Name", "Doctor Profile Image", "Doctor Specialization and Experience", "Doctor Rating", "Doctor Registration",
-                "Doctor Education", "Doctor Additional Photo 1", "Doctor Additonal Photo 2",
+                "Doctor Education", "Doctor Additional Photo 1", "Doctor Additional Photo 2",
                 "Doctor Additional Photo 3", "Doctor Additional Photo 4", "Doctor Additional Photo 5"
             };
 
@@ -157,13 +151,13 @@ public class ParticularDoctorData_Excel {
                 dataRow.createCell(1).setCellValue(doctorData.getProfileImage());
                 dataRow.createCell(2).setCellValue(doctorData.getSpecialization());
                 dataRow.createCell(3).setCellValue(doctorData.getRating());
-                dataRow.createCell(4).setCellValue(doctorData.getRegistration());
-                dataRow.createCell(5).setCellValue(doctorData.getEducation());
+//                dataRow.createCell(4).setCellValue(doctorData.getRegistration());
+                dataRow.createCell(4).setCellValue(doctorData.getEducation());
 
-//                String[] additionalPhotos = doctorData.getAdditionalPhotos();
-//                for (int i = 0; i < additionalPhotos.length; i++) {
-//                    dataRow.createCell(5 + i).setCellValue(additionalPhotos[i]);
-//                }
+                String[] imageUrl = doctorData.getAdditionalPhotos();
+                for (int i = 0; i < imageUrl.length; i++) {
+                    dataRow.createCell(6 + i).setCellValue(imageUrl[i]);
+                }
             }
 
             // Writing to Excel file
@@ -171,7 +165,7 @@ public class ParticularDoctorData_Excel {
                 workbook.write(fileOut);
             }
 
-            System.out.println("Doctor information successfully written to Excel file at: ." + filePath);
+            System.out.println("Doctor information successfully written to Excel file at: " + filePath);
 
         } catch (IOException e) {
             logger.error("Error writing data to Excel file", e);
@@ -179,21 +173,21 @@ public class ParticularDoctorData_Excel {
     }
 }
 
-class DoctorData {
-	private String doctorName;
+class DoctorData1 {
+    private String doctorName;
     private String profileImage;
     private String specialization;
     private String rating;
-    private String registration;
+//    private String registration;
     private String education;
     private String[] additionalPhotos;
 
-    public DoctorData(String doctorName, String profileImage, String specialization, String rating, String registration, String education, String[] additionalPhotos) {
+    public DoctorData1(String doctorName, String profileImage, String specialization, String rating, String registration, String education, String[] additionalPhotos) {
         this.doctorName = doctorName;
-    	this.profileImage = profileImage;
+        this.profileImage = profileImage;
         this.specialization = specialization;
         this.rating = rating;
-        this.registration = registration;
+//        this.registration = registration;
         this.education = education;
         this.additionalPhotos = additionalPhotos;
     }
@@ -201,7 +195,7 @@ class DoctorData {
     public String getDoctorName() {
         return doctorName;
     }
-    
+
     public String getProfileImage() {
         return profileImage;
     }
@@ -214,9 +208,9 @@ class DoctorData {
         return rating;
     }
 
-    public String getRegistration() {
-        return registration;
-    }
+//    public String getRegistration() {
+//        return registration;
+//    }
 
     public String getEducation() {
         return education;

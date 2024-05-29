@@ -16,6 +16,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class Particular_DoctorData {
 
@@ -29,7 +30,7 @@ public class Particular_DoctorData {
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         
-        List<String> urls = readUrlsFromExcel("DoctorURLs.xlsx");
+        List<String> urls = readUrlsFromExcel("DoctorUrl.xlsx");
 
         for (String url : urls) {
             driver.get(url);
@@ -68,13 +69,30 @@ public class Particular_DoctorData {
 
               // To scrap the Doctor Specialization 
               
-              String doctorSpecialization = driver.findElement(By.xpath("//*[@id='doctorprofilecard']/div[1]/p")).getText();
-              System.out.println("Doctor Specilization & Experience: " + doctorSpecialization);
+//              String doctorSpecialization = driver.findElement(By.xpath("//*[@id='doctorprofilecard']/div[1]/p")).getText();
+//              System.out.println("Doctor Specilization & Experience: " + doctorSpecialization);
+              String doctorSpecialization = "";
+              try {
+                  doctorSpecialization = driver.findElement(By.xpath("//*[@id='doctorprofilecard']/div[1]/p")).getText();
+              } catch (Exception e) {
+                  logger.error("Error fetching Doctor Specialization", e);
+              }
+              doctorSpecialization = doctorSpecialization.isEmpty() ? "NA" : doctorSpecialization;
+
+              
               
               // To Scrap the Doctor Rating
               
-              String doctorRating = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[2]/span[1]")).getText();
-              System.out.println("Doctor Ratings: " + doctorRating + " Star");
+//              String doctorRating = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[2]/span[1]")).getText();
+//              System.out.println("Doctor Ratings: " + doctorRating + " Star");
+              String doctorRating = "";
+              try {
+                  doctorRating = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[2]/span[1]")).getText();
+              } catch (Exception e) {
+                  logger.error("Error fetching Doctor Ratings", e);
+              }
+              doctorRating = doctorRating.isEmpty() ? "NA" : doctorRating + " Star";
+              
               
               // To scrap the Doctor Registration Number
               String doctorRegistration = driver.findElement(By.xpath("//*[@id = 'doctorprofilecard']/div[3]/div[1]/div/p[1]")).getText();
@@ -82,12 +100,19 @@ public class Particular_DoctorData {
               
               
               // To Scrap the Doctor Education Data
-              String doctorEducation = driver.findElement(By.xpath("//*[@class = 'educationbox']/p[2]")).getText();
-              System.out.println("Doctor Education : " + doctorEducation );
+//              String doctorEducation = driver.findElement(By.xpath("//*[@class = 'educationbox']/p[2]")).getText();
+//              System.out.println("Doctor Education : " + doctorEducation );
+              String doctorEducation = "";
+              try {
+              	doctorEducation = driver.findElement(By.xpath("//*[@class = 'educationbox']/p[2]")).getText();
+              } catch (Exception e) {
+                  logger.error("Error fetching Doctor Education", e);
+              }
+              doctorEducation = doctorEducation.isEmpty() ? "NA" : doctorEducation;
               
               
               // To scrap Additional photos of the doctor   
-              WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+              WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10)); 
               List<WebElement> imageThumbnails = driver.findElements(By.cssSelector("#doctorphotos .image-thumbnail"));
 
               // Iterate over the image thumbnails and extract the background-image URLs
@@ -99,29 +124,131 @@ public class Particular_DoctorData {
               
               // To scrap doctor clinic details and contact number
               
-              List<WebElement> clinicElements = driver.findElements(By.cssSelector("#doctorclinics .clinics-title"));
+//              List<WebElement> clinicElements = driver.findElements(By.cssSelector("#doctorclinics .clinics-title"));
+//
+//              for (int i = 1; i <= 4; i++) {
+////                  WebElement clinicNameElement = clinicElement.findElement(By.className("clinics-title"));
+////                  String clinicName = clinicNameElement.getText();
+//            	  String clinicDetails = clinicElements.get(i).getText();
+//                  
+////            	  List<WebElement> contactElements = clinicElements.findElements(By.className("text-link"));
+////                  String contactNumber = "";
+////                  for (WebElement contactElement : contactElements) {
+////                      if (contactElement.getAttribute("href").startsWith("tel:")) {
+////                          contactNumber = contactElement.getText().replace(" ", "");
+////                          break;
+////                      }
+////                  }
+//
+//                  System.out.println("Clinic Name: " + clinicDetails);
+////                  System.out.println("Contact Number: " + contactNumber);
+//                  System.out.println();
+//              }
 
-              for (int i = 1; i <= 4; i++) {
-//                  WebElement clinicNameElement = clinicElement.findElement(By.className("clinics-title"));
-//                  String clinicName = clinicNameElement.getText();
-            	  String clinicDetails = clinicElements.get(i).getText();
-                  
-//            	  List<WebElement> contactElements = clinicElements.findElements(By.className("text-link"));
-//                  String contactNumber = "";
-//                  for (WebElement contactElement : contactElements) {
-//                      if (contactElement.getAttribute("href").startsWith("tel:")) {
-//                          contactNumber = contactElement.getText().replace(" ", "");
-//                          break;
-//                      }
-//                  }
+//              WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(30)); 
+//              List<WebElement> clinicBoxes = driver.findElements(By.id("doctorclinics"));
+//
+//              for (WebElement clinicBox : clinicBoxes) {
+//                  // Get clinic name
+//                  String clinicName = clinicBox.findElement(By.xpath("//*[@id='doctorclinics']/div/p")).getText();
+//                  
+////                  // Get clinic address
+////                  String clinicAddress = clinicBox.findElement(By.cssSelector(".text-sm")).getText();
+////                  
+////                  // Get clinic timings
+////                  String clinicTimings = clinicBox.findElement(By.cssSelector(".flex-start")).getText();
+////                  
+//                  // Get clinic phone number
+//                  String clinicPhoneNumber = clinicBox.findElement(By.cssSelector(".bi-telephone")).getText();
+//
+//                  // Print clinic details
+//                  System.out.println("Clinic Name: " + clinicName);
+//                  System.out.println("Phone Number: " + clinicPhoneNumber);
+//                  System.out.println();
+//                  
+//              }
+              
+              WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(30)); 
+//              List<WebElement> clinicBox = driver.findElements(By.cssSelector("#doctorclinics .clinics-title"));
+//              String[] clinicNames = new String[5];	
+//              for (int i = 0; i < clinicNames.length; i++) {
+//                  // Get clinic name
+//            	  if (i < clinicBox.size()) {
+//            		  clinicNames[i] = extractClinicNames(clinicBox.get(i).getText());
+//            		  System.out.println("Doctor Clinic Names " + (i + 1) + " Name: " + clinicNames[i]);
+//            	  } else {
+//            		  clinicNames[i] = "NA";
+//            		  System.out.println("Doctor Clinic Name " + (i + 1) + "Clinic Name : NA");
+//            	  }
+//              }
+             /* List<WebElement> clinicElements = driver.findElements(By.cssSelector(".clinic-box"));
 
-                  System.out.println("Clinic Name: " + clinicDetails);
-//                  System.out.println("Contact Number: " + contactNumber);
-                  System.out.println();
+              // Iterate over each clinic element and extract the clinic name
+              for (WebElement clinicElement : clinicElements) {
+                  WebElement clinicNameElement = clinicElement.findElement(By.tagName("p"));
+                  String clinicName = clinicNameElement.getText();
+                  System.out.println(clinicName);
+              }*/
+              
+            /*  List<WebElement> clinicNameElements = driver.findElements(By.xpath("//div[@id='doctorclinics']//div[@class='clinic-box']//p[@class='clinics-title']"));
+
+              // Iterate over each clinic name element and extract the clinic name
+             for (WebElement clinicNameElement : clinicNameElements) {
+                  String clinicName = clinicNameElement.getText();
+                  System.out.println("Clinic Name is: " + clinicName);
+              }
+              */
+/*              List<WebElement> clinicElements = driver.findElements(By.cssSelector("#doctorclinics .clinics-title"));
+
+              for (WebElement clinicElement : clinicElements) {
+                  String clinicName = clinicElement.getText();
+                  System.out.println("Clinic Name: " + clinicName);
+              }
+*/
+              List<WebElement> phoneElements = driver.findElements(By.cssSelector(".clinic-box a.text-link"));
+              List<String> phoneNumbers = new ArrayList<>();
+              for (WebElement element : phoneElements) {
+                  phoneNumbers.add(element.getText().replaceAll("[^0-9]", ""));
               }
 
+              // Scrape all clinics
+              List<WebElement> clinicElements = driver.findElements(By.cssSelector(".clinic-box"));
+              List<String> clinics = new ArrayList<>();
+              for (WebElement element : clinicElements) {
+                  String clinicName = element.findElement(By.cssSelector(".clinics-title")).getText();
+//                  String clinicAddress = element.findElement(By.cssSelector(".text-sm")).getText();
+                 // clinics.add(clinicName + " - " + clinicAddress);
+                  clinics.add(clinicName);
+              }
 
-              
+              // Print the scraped data
+              System.out.println("Clinic Phone Numbers:");
+              for (String phoneNumber : phoneNumbers) {
+                  System.out.println(phoneNumber);
+              }
+
+              System.out.println("\nClinics:");
+              for (String clinic : clinics) {
+                  System.out.println(clinic);
+                  
+                  
+//            	  String clinicName = clinicBox.findElement(By.xpath("//*[@id='doctorclinics']/div/p[1]")).getText();
+
+                  // Get clinic phone number
+//                  String clinicPhoneNumber = "NA";
+//                  try {
+//                     clinicPhoneNumber = clinicBox.findElement(By.cssSelector(".bi-telephone")).getText();
+//                  } catch (NoSuchElementException e) {
+//                      System.out.println("Phone Number is not found");
+//                  }
+//
+//                  // Print clinic details
+//                  System.out.println("Clinic Name: " + clinicName);
+//                  System.out.println("Phone Number: " + clinicPhoneNumber);
+//                  System.out.println();
+//              }
+                  
+                  
 /*            String additionalPhoto1 = driver.findElement(By.cssSelector("//*[@id='doctorphotos']/div[1]/div[1]/div[1]")).getAttribute("url");
               System.out.println("Doctor Additional Photo 1 : " + additionalPhoto1 );
             
@@ -143,6 +270,8 @@ public class Particular_DoctorData {
                 logger.info("Doctor Ratings: " + doctorRating );
                 logger.info("Doctor Registration: " + doctorName);
                 logger.info("Doctor Education: " + doctorEducation);
+//                logger.info("Doctor Clinic Name: " + clinicName);
+//                logger.info("Doctor Clinic Phone Number: " + clinicPhoneNumber);
               
 /*              logger.info("Doctor Additional Photo 1: " + additionalPhoto1);
                 logger.info("Doctor Additional Photo 2: " + additionalPhoto2 );
@@ -151,7 +280,7 @@ public class Particular_DoctorData {
 */
                 
      // Save the extracted data as needed, for example, write it to a new Excel file
-                
+              }
             } catch (Exception e) {
                 logger.error("Error scraping data from URL: " + url, e);
             }
@@ -159,6 +288,20 @@ public class Particular_DoctorData {
         
         driver.quit();
     }
+    
+//    private static String extractClinicNames(String text) {
+//        try {
+//            // Split the text to extract only the clinic name
+//            String[] parts = text.split("\\r?\\n");
+//            String clinicName = parts[0];
+//            
+//            // Return the clinic name
+//            return clinicName;
+//        } catch (Exception e) {
+//            // If any exception occurs, return "NA"
+//            return "NA";
+//        }
+//    }
 
     private static List<String> readUrlsFromExcel(String filePath) {
         List<String> urls = new ArrayList<>();
